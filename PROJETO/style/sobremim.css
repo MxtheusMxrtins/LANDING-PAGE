@@ -1,0 +1,40 @@
+body { /* estilizar o body por completo */
+    background-color: rgb(34, 34, 34);   /* cor de fundo */
+    color: #ffff; /*cor das letras */
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px; /* delimitar o tamanho do bloco */
+    margin: 0 auto; 
+    padding: 15px; /* espaçamento */
+}
+
+header{
+    display: flex;
+    flex-direction: row; /* tranforma o cabeçalho em linha */
+    justify-content: space-between; /* espaço entre os itens */
+    align-items: center; /* alinhamento no centro */
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px; /* espaço entre as palavras */
+}
+
+li{
+    display: inline-block; /* deixou os itens em linha */
+    margin: 20px; /* espaço entre os itens */
+    font-size: 15px;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2012FF;
+    transition: 0.5s all;
+}
+
+h1{
+    font-weight: 200; /* intensidade da fonte */
+}
+
